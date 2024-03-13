@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+    {% block title %}Login{% endblock %}
+        {% block form %} 
+         <form action="{{ url_for('login') }}" method="post" class="login__form">
+            <h1 class="login__title">Login</h1>
+
+            <div class="login__inputs">
+               <div class="login__box">
+                  <input type="email" placeholder="Email" required class="login__input" name="email">
+                  <i class="ri-mail-fill"></i>
+               </div>
+
+               <div class="login__box">
+                  <input type="password" placeholder="Password" required class="login__input" name="password">
+                  <i class="ri-lock-2-fill"></i>
+               </div>
+            </div>
+
+            <button type="submit" class="login__button">Login</button>
+
+            <div class="login__register">
+               <a href="{{ url_for('register') }}">Don't have an account? Register</a>
+            </div>
+         </form>
+        {% endblock %}         
