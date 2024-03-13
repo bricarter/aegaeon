@@ -31,6 +31,14 @@ git clone https://github.com/bricarter/vulnerableauth1.git
 
 <br>
 
+Move into the `vulnerableauth1/` directory.  
+
+```
+cd vulnerableauth1/
+```
+
+<br>
+
 (optional) Create a virtual environment to hold the app's dependencies.  
 
 ```
@@ -42,7 +50,7 @@ python3 -m venv <venv_name>
 Install the dependencies found in the requirements file.  
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 <br>
