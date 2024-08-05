@@ -1,17 +1,4 @@
-# vulnerableauth1
-
-An intentionally vulnerable, authentication system designed for beginners to explore the concepts of username enumeration and password brute-force. 
-
-**vulnerableauth1** is easy enough to solve manually, but it could be worthwhile to use automated security tools.
-
-
-## Warnings:
-1. This project is vulnerable ON PURPOSE.  
-DO NOT send issues, pull requests, security reports, or CVEs.  They will all be IGNORED.
-1. This application is highly insecure, and as such, should not be deployed on internet facing servers.
-1. By installing, you take full responsibility for using it.
-1. Hacking is ILLEGAL unless given permission by the target. :)
-
+# aegaeon
 
 ## Installation:
 
@@ -26,15 +13,15 @@ python3 --version
 Clone this repository.  
 
 ```
-git clone https://github.com/bricarter/vulnerableauth1.git
+git clone https://github.com/bricarter/aegaeon.git
 ```
 
 <br>
 
-Move into the `vulnerableauth1/` directory.  
+Move into the `aegaeon/` directory.  
 
 ```
-cd vulnerableauth1/
+cd aegaeon/
 ```
 
 <br>
@@ -88,6 +75,4 @@ flask run
 
 <br>
 
-The development server should then be started on `localhost:5000`
-
-Happy learning! 
+The development server now then be started on `localhost:5000`
