@@ -5,7 +5,7 @@
 Make sure Python 3.10 is installed.  
 
 ```
-python3 --version
+python --version
 ```  
 
 <br>
@@ -31,7 +31,7 @@ cd aegaeon/
 Here is the command to create a virtual environment using python's built in venv module.
 
 ```
-python3 -m venv <venv_name> 
+python -m venv <venv_name> 
 ``` 
 
 <br>
