@@ -75,4 +75,4 @@ flask run
 
 <br>
 
-The development server now then be started on `localhost:5000`
+The development server is now available on `localhost:5000`
